@@ -3,4 +3,5 @@ This is a simple blog application.
 * As an admin, I can create a post 
 * As a user, I can view a post 
 * As a user, I can comment on a post 
+* Add blog posts
 

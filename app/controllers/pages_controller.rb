@@ -3,4 +3,8 @@ class PagesController < ApplicationController
     
   end
 
+  def blog_post 
+
+  end 
+
 end

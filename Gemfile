@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'awesome_print'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets

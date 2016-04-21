@@ -41,6 +41,12 @@ h6 {
     font-weight: 700;
 }
 
+p {
+  line-height: 1.5em;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -112,6 +118,15 @@ h6 {
     letter-spacing: 2px;
 }
 
+.jumbotron { 
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color:transparent !important;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+  
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;

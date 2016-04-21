@@ -4,4 +4,5 @@ This is a simple blog application.
 * As a user, I can view a post 
 * As a user, I can comment on a post 
 * Add blog posts
+* Make the navigation a partial _nav.html.erb
 

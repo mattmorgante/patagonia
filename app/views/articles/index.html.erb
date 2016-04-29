@@ -88,13 +88,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
-                    <%= link_to "Top 7 Budget Activities", "/articles/activities" %>
+                    
                         
                         <h2 class="post-title">
-                           Top 7 Budget Activities in Patagonia
+                          <%= link_to "Top 7 Budget Activities", "/articles/activities" %>
                         </h2>
                         <h3 class="post-subtitle">
-                            Where will your money go the furthest? 
+                          Where will your money go the furthest? 
                         </h3>
                     </a>
                     <p class="post-meta">April 21, 2016</p>
@@ -145,42 +145,7 @@
 
     <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Matt Morgante 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <%= render 'layouts/footer' %>
 
 </body>
 

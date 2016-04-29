@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
   resources :pages
+  get "/articles/:article" => "articles#show"
   root 'pages#index'
   get 'pages/contact'
   # The priority is based upon order of creation: first created -> highest priority.

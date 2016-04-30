@@ -5,4 +5,5 @@ This is a simple blog application.
 * As a user, I can comment on a post 
 * Add blog posts
 * Make the navigation a partial _nav.html.erb
+* Two different footers right now depending on which layout 
 

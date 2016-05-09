@@ -4,4 +4,7 @@ To Do
 * Add photos to blog posts
 * Buy page
 * Contact page
-
+* Different footers showing up on different page
+* "The missing guide" - information that doesnt exist elsewhere 
+* Text doesn't center on first parallax photo 
+* 

@@ -6,5 +6,7 @@ To Do
 * Contact page
 * Different footers showing up on different page
 * "The missing guide" - information that doesnt exist elsewhere 
-* Text doesn't center on first parallax photo 
-* 
+* Text doesn't center on photo of isaiah 
+* Add more photos with text overlay to homepage
+* Use generic formatters to change number to dollar sign in google chart 
+* Finish book with emoji mapping

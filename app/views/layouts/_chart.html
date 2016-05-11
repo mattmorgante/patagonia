@@ -13,18 +13,20 @@
       // Callback that creates and populates a data table,
       // instantiates the pie chart, passes in the data and
       // draws it.
+
+      // here I want to add 
       function drawChart() {
 
         // Create the data table.
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
+        data.addColumn('number', '');
         data.addRows([
-          ['Accommodation', 4],
-          ['Onions', 1],
-          ['Olives', 1],
-          ['Zucchini', 1],
-          ['Pepperoni', 2]
+          ['Accommodation', 8],
+          ['Eating & Drinking', 9],
+          ['Activities', 6],
+          ['Transportation', 3],
+          ['Other', 4]
         ]);
 
         // Set chart options

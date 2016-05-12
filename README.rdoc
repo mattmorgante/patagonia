@@ -1,12 +1,10 @@
 To Do 
 
 * Add content and format blog posts
-* Add photos to blog posts
-* Buy page
-* Contact page
+* Buy page - necessary? 
+* Contact page - mailto link? 
 * Different footers showing up on different page
-* "The missing guide" - information that doesnt exist elsewhere 
 * Text doesn't center on photo of isaiah 
 * Add more photos with text overlay to homepage
 * Use generic formatters to change number to dollar sign in google chart 
-* Finish book with emoji mapping
+* Finish book with emoji mapping 

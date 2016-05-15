@@ -193,6 +193,14 @@ ul.list {
     background-size: cover;
 }
 
+.banner5 {
+    padding: 100px 0;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../assets/cerrocastillo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 .banner h2 {
     margin: 0;

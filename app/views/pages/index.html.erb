@@ -69,27 +69,9 @@
         <p><strong>Patagonia on a Budget</strong> is a travel guide for budget travelers and backpackers who want the insider secrets on travelling in Patagonia. With exorbitant prices listed online by tour companies and travel agencies, this is the missing guide for traveling in Patagonia without breaking the bank. The book contains information simply not available anywhere else and is designed to help you travel through the entire Patagonia region on $30/day! </p>
     </div>
 
-    <div class="banner2">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Travel Longer, Cheaper, and Stress-Free</h2>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner2 -->
-
     <div class="jumbotron2">
         <h2>What's Inside?</h2>
-    </div>
-
-    <div class="content-section-a">
+    </div>    <div class="content-section-a">
 
         <div class="container">
             <div class="row">
@@ -109,6 +91,22 @@
 
     </div>
     <!-- /.content-section-a -->
+
+    <div class="banner2">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Travel Longer, Cheaper, and Stress-Free</h2>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner2 -->
 
     <div class="content-section-b">
 
@@ -176,7 +174,7 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>The Authentic Experiences of Patagonia</h2>
+                    <h2>Discover The Authentic Experiences of Patagonia</h2>
                 </div>
             </div>
 
@@ -194,7 +192,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">What To Bring</h2>
+                    <h2><%= link_to "What To Bring", "/articles/packing", class: "section-heading"%></h2>
                     <p class="lead">Be prepared with comprehensive packing advice: a full packing list, 
                     details for mastering long hiking routes with less stress, and all the essentials you'll need for camping and traveling in Patagonia.
                     </p>
@@ -210,7 +208,24 @@
     </div>
     <!-- /.content-section-b -->
 
-        <div class="content-section-a">
+
+    <div class="banner5">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Get Off The Beaten Track</h2>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner5 -->
+
+    <div class="content-section-a">
 
         <div class="container">
 
@@ -218,10 +233,9 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Budgeting Breakdown</h2>
-                    <p class="lead">How to find the cheapest hostels (even the ones that aren't listed online), detailed spending guides for all the major activities and national parks, 
-                        how much basic essentials cost, and real prices updated for the 2016-2017 season!</p>
-                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                    <h2><%= link_to "Budgeting Breakdown", "/articles/budget", class: "section-heading"%></h2>
+                    <p class="lead">How to find the cheapest hostels (even the ones that aren't listed online), detailed spending guides for all the major activities and national parks, how much basic essentials cost, and real prices updated for the 2016-2017 season!</p>
+                </div>                                            
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <%= render 'layouts/chart' %>
                 </div>

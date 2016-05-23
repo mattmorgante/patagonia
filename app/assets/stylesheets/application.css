@@ -141,6 +141,12 @@ ul.list {
     font-weight: 700;
 }
   
+.table-contents { 
+	line-height: 1.7em;
+	text-align: left;
+	margin: 10px;
+	padding: 20px;
+}
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -181,7 +187,7 @@ ul.list {
     padding: 100px 0;
     text-align: center;
     color: #f8f8f8;
-    background: url(../assets/marble.png) no-repeat center center;
+    background: url(../assets/peritomoreno.jpg) no-repeat center center;
     background-size: cover;
 }
 

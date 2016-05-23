@@ -11,6 +11,12 @@
 
     <title>Patagonia On A Budget</title>
 
+        <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -28,7 +34,7 @@
   <%= render 'layouts/header' %>
 
     <!-- Header -->
-    <div class="intro-header">
+    <div class="intro-header2">
         <div class="container">
 
             <div class="row">
@@ -53,6 +59,10 @@
     <!-- /.intro-header -->
 
     <!-- Main Content -->
+    <div class="jumbotron2">
+        <h2>Blog Posts</h2>
+    </div>
+    <hr>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -68,7 +78,7 @@
                 <hr>
                 <div class="post-preview">    
                     <h2 class="post-title">
-                          <%= link_to "How to go Hitchhiking in Patagonia", "/articles/hitchhiking" %>
+                          <%= link_to "How To Go Hitchhiking in Patagonia", "/articles/hitchhiking" %>
                     </h2>
                     <h4 class="post-subtitle">
                           The cheapest and most fun way to get around! 
@@ -176,15 +186,31 @@
                     </h4>
                     </a>
                 </div>
-
-           
                 <hr>
             </div>
         </div>
     </div>
 
-    <hr>
 
+     <div class="banner6">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons-center">
+                        </li>
+                        <li><%= link_to "Buy the Book", "/pages/buy", class: "btn btn-default btn-lg"%>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
   <%= render 'layouts/footer' %>
 
 </body>

@@ -1,10 +1,10 @@
 To Do 
 
 * Add content and format blog posts
-* Buy page - necessary? 
-* Contact page - mailto link? 
+* Activities page font is different
+* Change background image on blog 
+* Buy page - 2 divs, amazon and pdf link 
+* Contact page 
 * Different footers showing up on different page
 * Text doesn't center on photo of isaiah 
-* Add more photos with text overlay to homepage
-* Use generic formatters to change number to dollar sign in google chart 
-* Finish book with emoji mapping 
+* SEO

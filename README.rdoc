@@ -1,6 +1,7 @@
 To Do 
 
 * Add content and format blog posts
+* Blog post section headings and titles are the same
 * Activities page font is different
 * Change background image on blog 
 * Buy page - 2 divs, amazon and pdf link 

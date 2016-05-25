@@ -9,3 +9,4 @@ To Do
 * Different footers showing up on different page
 * Text doesn't center on photo of isaiah 
 * SEO
+* FAQ - look at other sites

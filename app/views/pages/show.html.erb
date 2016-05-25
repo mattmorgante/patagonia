@@ -1,7 +1,29 @@
 <%= render 'layouts/header' %>
 
-<div class="jumbotron">
-	<h4>To get in touch with our team, please e-mail matthewmorgante@gmail.com</h4>
-</div>
+<div class="content-section-a">
 
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+             	<h2> About The Author </h2>
+             <p class="lead">Hey, I'm Matt Morgante! I had no idea what I was getting in to when I arrived in Patagonia in October of 2015, armed with a flimsy tent and my girlfriend's budgeting app. Three months later we had traversed the entire length and width of the region on the astounding price of $26 a day, sparking the inspiration for this project.</p>
+
+             <p class="lead">Questions kept nagging at me long after we left: Why should travelers be dissuaded from traveling to one of the most beautiful places in the world because it's too expensive? Why isn't there a guide book tailored to budget travelers and backpackers who want to experience it all without breaking the bank? What if young people don't get to see Patagonia's beauty before it melts away?</p>
+
+             <p class="lead">I welcome questions, comments, and contributions! To get in touch please e-mail matthewmorgante@gmail.com. For more information about my trip, you can visit <%= link_to "My Personal Website", "http://mattmorgante.com"%></p>
+          </div>
+          <br>
+
+          <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+              <img class="img-responsive" src="/assets/fitzroy.jpg" alt="fitzroy">
+          </div>
+      </div>
+
+  </div>
+  <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
 <%= render 'layouts/footer' %>

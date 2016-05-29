@@ -1,12 +1,11 @@
 To Do 
 
 * Add content and format blog posts
-* Blog post section headings and titles are the same
-* Activities page font is different
-* Change background image on blog 
+* Naked domain
 * Buy page - 2 divs, amazon and pdf link 
-* Contact page 
-* Different footers showing up on different page
 * Text doesn't center on photo of isaiah 
 * SEO
+	* Sitemap 
+	* Robots.txt file 
 * FAQ - look at other sites
+* Email capture on buy page

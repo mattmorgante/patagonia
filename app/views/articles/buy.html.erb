@@ -1,9 +1,39 @@
 <%= render 'layouts/header' %>
 
+<div class="content-section-a">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+             	<h2> About The Author </h2>
+             <p class="lead">Hey, I'm Matt Morgante! I had no idea what I was getting in to when I arrived in Patagonia in October of 2015, armed with a flimsy tent and my girlfriend's budgeting app. Three months later we had traversed the entire length and width of the region on the astounding price of $26 a day, sparking the inspiration for this project.</p>
+
+             <p class="lead">Questions kept nagging at me long after we left: Why should travelers be dissuaded from traveling to one of the most beautiful places in the world because it's too expensive? Why isn't there a guide book tailored to budget travelers and backpackers who want to experience it all without breaking the bank? What if young people don't get to see Patagonia's glaciers before it melts away?</p>
+
+             <p class="lead">This project's intent is to makes the beauty of Patagonia more accessible for everyone. It contains all the information I wish I knew before arriving. I welcome questions, comments, and contributions! To get in touch please e-mail matthewmorgante@gmail.com. For more information about my trip, you can visit <%= link_to "My Personal Website", "http://mattmorgante.com"%></p>
+          </div>
+          <br>
+
+          <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+              <img class="img-responsive" src="/assets/cover.jpg" alt="ebook cover">
+          </div>
+      </div>
+
+  </div>
+  <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
+<%= render 'layouts/footer' %>
+
+<!-- 
+
 <div class="jumbotron">
 	<h4>Unfortunately, Patagonia On A Budget is not available yet. In the meantime, please check out our blog for all the latest news and traveling advice! </h4>
 	<%= link_to "Read The Blog", "/articles/index", class: "btn btn-default btn-lg"%>
 
 </div>
 
-<%= render 'layouts/footer' %>
+<%= render 'layouts/footer' %> -->

@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  
+
   root 'pages#index'
   resources :posts
   resources :pages
+  resources :subscribers
   get "/articles/:article" => "articles#show"
   
   get 'pages/contact'

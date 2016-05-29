@@ -8,4 +8,5 @@ To Do
 	* Sitemap 
 	* Robots.txt file 
 * FAQ - look at other sites
-* Email capture on buy page
+* To precompile images before Heroku 
+RAILS_ENV=production bundle exec rake assets:precompile

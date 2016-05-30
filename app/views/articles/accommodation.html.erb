@@ -41,7 +41,7 @@
 
                     <h2 class="section-heading2">1. Don't Book in Advance</h2>
 
-                    <p class="lead">Most travellers follow the same drill: a few days before arriving in a destination, you search on Hostelworld, Booking.com, or your favorite website for the best value accommodation option and secure your bed. Yet in Patagonia, this strategy has to evolve because there’s an outsize payoff to being more flexible with your plans. </p>
+                    <p class="lead">Experienced backpackers follow the same drill: a few days before arriving in a destination, you search on Hostelworld, Booking.com, or your favorite website for the best value accommodation option and secure your bed. Yet in Patagonia, this strategy has to evolve because there’s an outsize payoff to being more flexible with your plans. </p>
 
                     <p class="lead">The cheapest price online might be triple the price you end up getting by just walking around town and asking. This isn’t even for “off the map” hostels. In El Chalten, for example, the cheapest hostel on numerous search engines is $18 USD during the high season. The walk-in price for the same exact dorm room was actually $8. Can you imagine sharing the same dorm room with someone paying more than double your price? Awkward.</p>
 
@@ -63,11 +63,11 @@
                     <p class="lead">Don’t underestimate how fast camping will pay off! Campgrounds will usually end up coming in at half the price of a normal hostel, and purchasing the equipment can pay for itself in as little as 4 nights during the high season. Here are the three main reasons to love camping in Patagonia: </p>
 
                     <ul>
-                      <li class="lead"> Cost: Merely renting a tent for the 5 day Torres del Paine hilke will run a minimum of $60 dollars for the W ($100 for the 9 day O), whereas purchasing a tent will cost maybe half the price. One important consideration is where your purchase the tent: the North of Argentina and Chile will be considerably more economical, but if you’re not heading there, you can also stop at Punta Arenas’ tax-free shopping mall with camping stores. Additionally, many campgrounds within National Parks are 100% free, driving down one of the biggest daily expenses. </li> 
+                      <li><p class="lead"><strong>Cost:</strong> Merely renting a tent for the 5 day Torres del Paine hilke will run a minimum of $60 dollars for the W ($100 for the 9 day O), whereas purchasing a tent will cost maybe half the price. One important consideration is where your purchase the tent: the North of Argentina and Chile will be considerably more economical, but if you’re not heading there, you can also stop at Punta Arenas’ tax-free shopping mall with camping stores. Additionally, many campgrounds within National Parks are 100% free, driving down one of the biggest daily expenses.</p></li> 
 
-                      <li class="lead">Flexibility: Hostels might fill up, but campgrounds almost always have room to squeeze in one more tent. Never worry about being stranded without a bed or overpaying for an expensive hostel if you can rough it in a tent for at least one night. </li>
+                      <li> <p class="lead"><strong>Flexibility:</strong> Hostels might fill up, but campgrounds almost always have room to squeeze in one more tent. Never worry about being stranded without a bed or overpaying for an expensive hostel if you can rough it in a tent for at least one night.</p></li>
 
-                      <li class="lead">Beauty: There are only a few places in the world where you can open your front door to sunrise views like this, and many of them are campsites in Patagonia. </li>
+                      <li><p class="lead"><strong>Beauty:</strong> There are only a few places in the world where you can open your front door to sunrise views like this, and many of them are campsites in Patagonia.</p></li>
                     </ul>
 
                     <a href="#">
@@ -93,6 +93,21 @@
     </article>
 
     <hr>
+
+    <div class="jumbotron">
+    <h2> Subscribe for Budget Travel Tips and Updates</h2>
+  <br>
+  <%= form_for @subscriber do |f| %>
+      <%= f.text_field :name, placeholder: "Name", class: 'form-control' %>
+      <br>
+      <%= f.email_field :email, placeholder: "Email", class: 'form-control' %>
+      <br>
+      <%= f.select :source, ["Search Engine", "Social Media", "Word of Mouth", "Other"], prompt: "How did you hear about us?", class: 'form-control' %>
+          <br>
+          <br>
+      <%= f.submit "Sign Up" %>
+  <% end %>
+</div>
 
   <%= render 'layouts/footer' %>
 

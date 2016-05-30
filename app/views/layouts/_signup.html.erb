@@ -1,0 +1,14 @@
+<div class="jumbotron">
+	<h2> Subscribe for Budget Travel Tips and Updates</h2>
+  <br>
+  <%= form_for @subscriber do |f| %>
+      <%= f.text_field :name, placeholder: "Name", class: 'form-control' %>
+      <br>
+      <%= f.email_field :email, placeholder: "Email", class: 'form-control' %>
+      <br>
+      <%= f.select :source, ["Search Engine", "Social Media", "Word of Mouth", "Other"], prompt: "How did you hear about us?", class: 'form-control' %>
+          <br>
+          <br>
+      <%= f.submit "Sign Up" %>
+  <% end %>
+</div>

@@ -8,12 +8,15 @@
               <hr class="section-heading-spacer">
 
               <div class="clearfix"></div>
-              <div class="container">
-								<% flash.each do |name, msg| -%>
-								      <h4><%= content_tag :div, msg, class: name %></h4>
-								<% end %>
-								</div>
-             	<h2> Sign Up </h2>
+              <% if flash.present? %>
+                <div class="jumbotron4">
+                  <% flash.each do |name, msg| -%>
+                    <h4><%= content_tag :div, msg, class: name %></h4>
+                  <% end %>
+                </div>
+              <% end %>
+
+             <h2> Sign Up </h2>
              <p class="lead"> Unfortunately, Patagonia On A Budget is not available yet. If you want to be notified when the book is published, sign up here.</p>
 
 

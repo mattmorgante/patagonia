@@ -26,6 +26,13 @@
 </head>
 <body>
   <%= render 'layouts/header' %>
+    <% if flash.present? %>
+      <div class="jumbotron3">
+        <% flash.each do |name, msg| -%>
+          <h4><%= content_tag :div, msg, class: name %></h4>
+        <% end %>
+      </div>
+    <% end %>
 
     <!-- Header -->
     <div class="intro-header2">

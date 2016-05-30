@@ -6,7 +6,7 @@ class SubscribersController < ApplicationController
   def create 
   	@subscriber = Subscriber.new(subscriber_params)
   	if @subscriber.save 
-  		flash[:notice] = "Saved Successfully! Check out some of our blog posts."
+  		flash[:notice] = "Saved Successfully! Now check out some of our blog posts."
       redirect_to '/articles/index'
   	else 
   		flash[:notice] = "Failed to save. Please try again!"

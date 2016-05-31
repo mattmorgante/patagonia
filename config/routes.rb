@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   
 
   root 'pages#index'
+  get '/articles' => redirect('/articles/index')
   resources :posts
   resources :pages
   resources :subscribers

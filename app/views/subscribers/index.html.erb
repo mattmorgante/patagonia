@@ -25,10 +25,11 @@
 	           		<br>
 	           		<%= f.email_field :email, placeholder: "Email", class: 'form-control' %>
 	          		<br>
-	          		<%= f.select :source, ["Search Engine", "Social Media", "Word of Mouth", "Other"], prompt: "How did you hear about us?", class: 'form-control' %>
+                <h4>How did you hear about us?</h4>
+	          		<%= f.select(:source, ["Select An Option...", "Search Engine", "Social Media", "Word of Mouth", "Reddit", "Other"], {}, { class: 'form-control'})%>
 	         			<br>
 	         			<br>
-	           		<%= f.submit "Sign Up" %>
+	           		<%= f.submit "Sign Up", class: 'btn btn-large btn-default' %>
 	            <% end %>
            		
            		<p class="lead">In the meantime, please check out <%= link_to "Our Blog", "articles/index" %> for all the latest news and traveling advice!</p>

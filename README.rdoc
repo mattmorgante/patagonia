@@ -10,3 +10,12 @@ To Do
 * FAQ - look at other sites
 * To precompile images before Heroku 
 RAILS_ENV=production bundle exec rake assets:precompile
+
+UX Thoughts: 
+
+Put the read more buttons centered within their divs for mobile 
+Delete some pictures. Load times are atrocious. 
+Finish links for the what's inside section 
+Ebook cover doesn't display on subscribe page 
+need to redirect to naked URL 
+ 

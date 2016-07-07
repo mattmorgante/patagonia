@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
 
+  get 'cities/index'
+
   root 'pages#index'
   get '/articles' => redirect('/articles/index')
   resources :posts

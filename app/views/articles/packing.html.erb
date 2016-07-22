@@ -1,1 +1,51 @@
-packing.html.erb
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Patagonia Packing List</title>
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+ <%= render 'layouts/header' %>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <br>
+                    <h2 class="section-heading">Recommended Products for Travelling in Patagonia</h2>
+                    <p class="lead">Product links</p>
+                    
+                    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=mattmorgante-20&marketplace=amazon&region=US&placement=B00X5RV14Y&asins=B00X5RV14Y&linkId=4b1ff6c1eef5394837c034b77d8921cb&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+                    </iframe>
+
+
+                   
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+  <%= render 'layouts/signup' %>
+
+  <%= render 'layouts/footer' %>
+
+</body>
+
+</html>

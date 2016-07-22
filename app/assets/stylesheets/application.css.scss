@@ -137,8 +137,16 @@ ul.list {
     padding: 20px;
     text-align: center;
     background-color:transparent !important;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
     font-weight: 700;
+}
+
+.jumbotron p { 
+		font-family: 'PT Sans', sans-serif;
+}
+
+.jumbotron h2 { 
+		font-family: 'PT Sans', sans-serif;
 }
 
 .jumbotron2 { 
@@ -146,7 +154,7 @@ ul.list {
     padding: 20px;
     text-align: center;
     background-color:transparent !important;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: 'PT Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -161,6 +169,26 @@ ul.list {
 	padding: 20px;
 	text-align: left;
 	color: #d9534f;
+}
+
+.purchase {
+	padding: 50px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.pitch p {
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.pitch h5 {
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.pitch h3 {
+	text-align: center;
+
 }
 
 .buybutton {

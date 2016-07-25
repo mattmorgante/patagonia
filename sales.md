@@ -1,8 +1,13 @@
 # demonstrate they are missing out on something, losing money, not gaining 
 
 # what are you selling? 
-- Freedom, Joy, Experiences 
+- Freedom, Joy, Adventure, Nature
+Experiences 
+- Unique trip not available anywhere else in the world 
 - Life-changing journeys
+- Connect with locals, some of the friendliest people in the world 
+
+# It's a different kind of guide book 
 
 Have you ever dreamed of traveling to Patagonia? Maybe you watched a nature documentary, saw some unbelievable travel porn photos, or just spend your free time fantasizing about exploring the vast unclaimed tracs of nature at the Southern tip of Chile and Argentina. 
 

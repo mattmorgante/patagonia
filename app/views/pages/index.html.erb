@@ -57,7 +57,7 @@
   <a  name="services"></a>
       <div class="jumbotron">
         <h2>What is it?</h2>
-        <p>Patagonia on a Budget is a travel guide for budget travelers and backpackers who want the insider secrets on travelling in Patagonia. With exorbitant prices listed online by tour companies and travel agencies, this is the missing guide for traveling in Patagonia without breaking the bank. The book contains information simply not available anywhere else and is designed to help you travel through the entire Patagonia region on $30/day! </p>
+        <p>Patagonia on a Budget is a travel guide for budget travelers and backpackers who want the insider secrets on travelling in Patagonia. With exorbitant prices listed online by tour companies and travel agencies, this is the missing guide for traveling in Patagonia without breaking the bank. The book contains information simply not available anywhere else and is designed to help you travel through the entire Patagonia region on $30/day!</p>
     </div>
 
     <div class="banner2">
@@ -82,6 +82,8 @@
 
         <p>Maybe you watched a nature documentary, saw some #earthporn, or just spend your free time fantasizing about exploring vast unclaimed tracs of nature.</p>
 
+        <p>I know I did...</p>
+
         <p>If you love spending time outdoors, want to experience the glaciers before they melt away, and enjoy going hiking and camping through the wilderness, the Southern tip of Chile and Argentina is for you!</p>
 
       <h3>What are you waiting for?</h3>
@@ -90,7 +92,7 @@
         <div class="row">
           <div class="col-md-4"><img style="max-height:200px" class="img-responsive center-block" src="/assets/tripadvisor.png" alt="Trip Advisor Package Tour to Patagonia"><br><h5>TripAdvisor would like you to believe it costs $750 to spend 3 days hiking in Los Glacieras National Park. In reality, you can do this same exact trip for less than $20!</h5></div>
 
-          <div class="col-md-4"><img style="max-height:200px" class="img-responsive center-block" src="/assets/viator.png" alt="Viator Package Tour to Patagonia"><br><h5>Or how about two weeks in Patagonia with Viator? It will run you more than $1,500! Using Patagonia On A Budget you can visit all the exact same sites for less than $400, leaving you an extra $1,100 to spend on your trip!</h5></div>
+          <div class="col-md-4"><img style="max-height:200px" class="img-responsive center-block" src="/assets/viator.png" alt="Viator Package Tour to Patagonia"><br><h5>Or how about two weeks in Patagonia with Viator? It will run you more than $1,500. Using Patagonia On A Budget you can visit all the exact same sites for less than $400, leaving you an extra $1,100 to spend on your trip!</h5></div>
           <div class="col-md-4"><img style="max-height:200px"  class="img-responsive center-block" src="/assets/adventuretour.png" alt="Wildlife Tour to Patagonia"><br><h5>Even if you're just headed to Torres del Paine National Park, Adventure Life will charge you an absurd $1,900. Instead, I'll walk you through the details and information you need to replicate this itinerary for less than $200!</h5></div>
         </div>
         <br>
@@ -245,10 +247,12 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2><%= link_to "What To Bring", "#", class: "section-heading"%></h2>
+                    <h2><%= link_to "What To Bring", "/articles/packing", class: "section-heading"%></h2>
                     <p class="lead">Be prepared with comprehensive packing advice: a full packing list, 
                     details for mastering long hiking routes with less stress, and all the essentials you'll need for camping and traveling in Patagonia.
                     </p>
+                    <br>
+                    <%= link_to "Read More", "/articles/packing", class: "btn btn-default btn-lg"%>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="/assets/packing-min.png" alt="rafting">
@@ -269,8 +273,10 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2><%= link_to "Budgeting Breakdown", "#", class: "section-heading"%></h2>
+                    <h2><%= link_to "Budgeting Breakdown", "/articles/budget", class: "section-heading"%></h2>
                     <p class="lead">How to find the cheapest hostels (even the ones that aren't listed online), detailed spending guides for all the major activities and national parks, how much basic essentials cost, and real prices updated for the 2016-2017 season!</p>
+                    <br> 
+                    <%= link_to "Read More", "/articles/budget", class: "btn btn-default btn-lg"%>
                 </div>                                            
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <%= render 'layouts/chart' %>

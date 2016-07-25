@@ -1,3 +1,9 @@
+# demonstrate they are missing out on something, losing money, not gaining 
+
+# what are you selling? 
+- Freedom, Joy, Experiences 
+- Life-changing journeys
+
 Have you ever dreamed of traveling to Patagonia? Maybe you watched a nature documentary, saw some unbelievable travel porn photos, or just spend your free time fantasizing about exploring the vast unclaimed tracs of nature at the Southern tip of Chile and Argentina. 
 
 What are you waiting for? 

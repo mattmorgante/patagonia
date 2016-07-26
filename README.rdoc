@@ -17,35 +17,4 @@ UX Thoughts:
 Put the read more buttons centered within their divs for mobile 
 Delete some pictures. Load times are atrocious. 
 Finish links for the what's inside section 
-Ebook cover doesn't display on subscribe page 
 need to redirect to naked URL 
- 
-
-
-
-Purchase 
-
-Ebook cover / $9.99 
-Amazon Link
-Gumroad link 
-Leave a review! 
-
-
-#3: Now check it out, where should you go? 
-ITINERARIES 
-
--- Lakes and Volcanoes
--- Carretera 
--- Deep South
-
-What's inside the book? 
-4 more blog posts 
-
-
-BLOG PAGE
-Itineraries - inspirational 
-Meta - stuff making it easier to travel 
-
-Additional Page
-Recommended Products 
-Products on home page as well 

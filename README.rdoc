@@ -1,15 +1,9 @@
 To Do 
 
-* Need "related articles" links
-* Add content and format blog posts
-* Naked domain
-* Buy page - 2 divs, amazon and pdf link 
-* Text doesn't center on photo of isaiah 
 * SEO
 	* Sitemap 
 	* Robots.txt file 
-* FAQ - look at other sites
-* To precompile images before Heroku 
+* Precompile images before Heroku 
 RAILS_ENV=production bundle exec rake assets:precompile
 
 UX Thoughts: 

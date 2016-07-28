@@ -21,7 +21,7 @@
              <p class="lead">Patagonia On A Budget is now available for pre-order exlusively on Amazon!</p>
 
              <div class="buybutton">
-              <%= link_to image_tag("/assets/Amazonbutton.jpg"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
+              <%= link_to image_tag("/assets/buy2.png", :alt => "Buy Patagonia On A Budget on Amazon", :width=> 300, :height=> 50, :align => "middle"), " https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
             </div>
 
 
@@ -37,7 +37,9 @@
 	          		<%= f.select(:source, ["Select An Option...", "Search Engine", "Social Media", "Word of Mouth", "Reddit", "Other"], {}, { class: 'form-control'})%>
 	         			<br>
 	         			<br>
-	           		<%= f.submit "Sign Up", class: 'btn btn-large btn-default' %>
+                <div class="centerbutton">
+	           		  <%= f.submit "Sign Up", class: 'btn btn-large btn-default' %>
+                </div>
 	            <% end %>
            		
            		<p class="lead">In the meantime, please check out <%= link_to "Our Blog", "articles/index" %> for all the latest news and traveling advice!</p>

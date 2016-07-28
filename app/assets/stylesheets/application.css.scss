@@ -324,6 +324,10 @@ ul.list {
     margin-top: 0;
 }
 
+.centerbutton { 
+	text-align: center;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -582,6 +586,10 @@ hr.small {
   font-size: 24px;
   margin-top: 60px;
   font-weight: 700;
+}
+
+.vertical-image { 
+	max-height: 600px;
 }
 .caption {
   text-align: center;

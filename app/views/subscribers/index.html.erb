@@ -16,13 +16,14 @@
                 </div>
               <% end %>
 
-             <h2>Purchase</h2>
-
-             <p class="lead">Patagonia On A Budget is now available for pre-order exlusively on Amazon!</p>
+             <h3>Patagonia On A Budget is now available for pre-order exlusively on Amazon!</h3>
+             <br>
 
              <div class="buybutton">
               <%= link_to image_tag("/assets/buy2.png", :alt => "Buy Patagonia On A Budget on Amazon", :width=> 300, :height=> 50, :align => "middle"), " https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
             </div>
+
+            <h3>Want to know more about what's inside? Keep scrolling...</h3>
 
 
              <p class="lead">If you want to be notified when the book is published, sign up here.</p>
@@ -41,8 +42,6 @@
 	           		  <%= f.submit "Sign Up", class: 'btn btn-large btn-default' %>
                 </div>
 	            <% end %>
-           		
-           		<p class="lead">In the meantime, please check out <%= link_to "Our Blog", "articles/index" %> for all the latest news and traveling advice!</p>
            
           </div>
           <br>
@@ -55,8 +54,94 @@
   </div>
   <!-- /.container -->
 
+<hr>
+
+  <div class="content-section-a">
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2>Detailed Itineraries</h2>
+                  <p class="lead">Have two weeks for your trip? Two months? Either way, plan out your stops with detailed itineraries for each region, including high-quality emoji maps to quickly understand the best sights in each region.</p>
+                  <br>
+              </div>
+              <br>
+
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <img class="img-responsive" src="/assets/emojimap.png" alt="Lakes District Map">
+              </div>
+          </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
 </div>
 <!-- /.content-section-a -->
+
+<div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2>Easy to Navigate</h2>
+                    <p class="lead">Taking all the content from a regular guide book and converting it to an e-book makes for a horrible user experience. With clickable links, this book is specifically designed for easy navigation on mobile devices, tablets, e-readers, and desktops.</p>
+                    <br>
+                </div>
+                <br>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="/assets/links.png" alt="clickable links">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div><!-- /.content-section-b -->
+
+  <div class="content-section-a">
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2>Destination Guides</h2>
+                  <p class="lead">Be prepared with all the information you need to hitchhike or take the bus between destinations. Then once you arrive, know the exact prices of hostels, campgrounds, and the most stunning sights.</p>
+                  <br>
+              </div>
+              <br>
+
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <img class="img-responsive" src="/assets/pucon.png" alt="What to do in Pucon">
+              </div>
+          </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+</div>
+<!-- /.content-section-a -->
+
+<div class="jumbotron2">
+
+<h2>Ready to get started?</h2>
+    <br>
+      <div class="buybutton">
+                <%= link_to image_tag("/assets/buy2.png", :alt => "buy button", :width => 300, :height => 50, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
+      </div>
+      <br>
+</div>
 <%= render 'layouts/footer' %>
 
 <!-- 

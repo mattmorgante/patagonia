@@ -3,6 +3,7 @@ To Do
 * SEO
 	* Sitemap 
 	* Robots.txt file 
+* Carousel slides too fast
 * Precompile images before Heroku 
 RAILS_ENV=production bundle exec rake assets:precompile
 

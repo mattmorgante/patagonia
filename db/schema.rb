@@ -20,13 +20,6 @@ ActiveRecord::Schema.define(version: 20160707105931) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "posts", force: :cascade do |t|
-    t.string   "title"
-    t.text     "content"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "subscribers", force: :cascade do |t|
     t.string   "name"
     t.string   "email"

@@ -7,6 +7,7 @@ gem 'rails', '4.2.1'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'awesome_print'
+gem 'heroku-deflater', :group => :production
 
 gem 'googlecharts'
 gem 'sass-rails', '~> 5.0'

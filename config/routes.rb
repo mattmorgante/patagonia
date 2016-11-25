@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
   
 
-  get 'cities/index'
+  # get 'cities/index'
 
   root 'pages#index'
   get '/articles' => redirect('/articles/index')
-  resources :posts
-  resources :pages
-  resources :subscribers
   get "/articles/:article" => "articles#show"
+
+  get "/pages/show" => redirect('/contact')
+  get "/contact" => "pages#show"
   
-  get 'pages/contact'
-  get 'pages/buy'
+  resources :subscribers
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

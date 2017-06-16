@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'dynopoker'
 gem 'awesome_print'
 gem 'heroku-deflater', :group => :production
 gem 'dynopoker'

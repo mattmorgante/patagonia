@@ -15,6 +15,11 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+  Dynopoker.configure do |config|
+    config.address = 'http://patagoniaonabudget.com'
+    config.address = 'https://warm-tor-51266.herokuapp.com/'
+  end
+
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like

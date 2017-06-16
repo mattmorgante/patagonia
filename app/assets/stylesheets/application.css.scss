@@ -61,6 +61,25 @@ p {
     font-weight: 400;
 }
 
+.link { 
+	color: blue;
+	text-decoration: underline;
+}
+
+#left {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+#right {
+  margin-left: 50%;
+	padding: 20px;
+  /* Change this to whatever the width of your left column is*/
+}
+.clear {
+  clear: both;
+}
+
 .intro-header {
     text-align: center;
     color: #f8f8f8;

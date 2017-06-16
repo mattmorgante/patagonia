@@ -5,9 +5,12 @@ Rails.application.routes.draw do
 
   root 'pages#index'
   get '/articles' => redirect('/articles/index')
+  get 'blog-posts-patagonia' => 'articles#index'
   resources :posts
   resources :pages
   resources :subscribers
+  get "purchase" => 'subscribers#index'
+  get "author" => 'pages#show'
   get "/articles/:article" => "articles#show"
   
   get 'pages/contact'

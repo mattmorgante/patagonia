@@ -52,28 +52,21 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
-
-
-  <a  name="services"></a>
+  <a name="services"></a>
       <div class="jumbotron">
         <h2>What is it?</h2>
-        <p>Patagonia on a Budget is a travel guide for budget travelers and backpackers who want the insider secrets on traveling in Patagonia. The book is written by travelers, for travelers; it contains information simply not available anywhere else and is designed to help you travel through the entire Patagonia region on $30/day!</p>
+        <p>Patagonia on a Budget is a travel guide for travelers who want the insider secrets on traveling in Patagonia. It contains practical, up to date information and can help you travel through the entire Patagonia region on $30/day!</p>
     </div>
 
     <div class="banner2">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Travel Longer, Cheaper, and Stress-Free</h1>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.banner2 -->  
 
@@ -86,14 +79,12 @@
         <br>
         <ul>
           <li><h4>The best value on the craziest adventures</h4></li>
-          <li><h4>Prices and details for accommodation, transportation, and activities in every destination</h4></li>
+          <li><h4>Prices and details for accommodation, transportation and activities in every destination</h4></li>
           <li><h4>Detailed maps and itineraries of the most popular backpacking routes</h4></li>
           <li><h4>Recommended campgrounds with the best rates and facilities</h4></li>
           <li><h4>Instructions and safety advice for hitchhiking</h4></li>
-          <li><h4>The only packing list you'll ever need for camping</h4></li>
-          <li><h4>Details about the 3 biggest money saving techniques for travelers in Patagonia</h4></li>
+          <li><h4>The only packing list you'll ever need</h4></li>
           <li><h4>The electronics, websites, and applications to depend on during your expedition</h4></li>
-          <li><h4>Real prices specifically researched and compared by fellow travelers</h4></li>
           <li><h4>A special bonus guide on packing and cooking during long hikes through national parks</h4></li>
           <br>
           <div class="buybutton">
@@ -101,7 +92,7 @@
           </div>
           <br>
       </div>
-      <div class="col-md-6"><img style="max-height:600px" style="max-width:400px"class="img-responsive center-block" src="/assets/cover-min.jpg" alt="ebook cover"></div>
+      <div class="img-responsive col-md-6"><%= link_to image_tag("/assets/cover-min.jpg", :alt => "patagonia on a budget book cover", :width => 400, :height => 600, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8" %></div>
     </div>
   </div>
 
@@ -243,11 +234,6 @@
 
     </div>
     <!-- /.content-section-a -->
-
-    <div class="jumbotron2">
-        <h2>And much more!</h2>
-    </div>
-
   <a  name="contact"></a>
     <div class="banner">
 
@@ -261,7 +247,7 @@
                     <ul class="list-inline banner-social-buttons">
                         <li><%= link_to "Read the Blog", "/articles/index", class: "btn btn-default btn-lg"%>
                         </li>
-                        <li><%= link_to "Buy the Book", "/subscribers", class: "btn btn-default btn-lg"%>
+                        <li><%= link_to "Buy the Book", "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1", class: "btn btn-default btn-lg"%>
                         </li>
                         
                     </ul>
@@ -271,10 +257,11 @@
         </div>
         <!-- /.container -->
     </div>
-
-    <%= render 'layouts/signup' %>
-
-    <hr>
+    <br>
+      <div class="buybutton">
+          <%= link_to image_tag("/assets/buy2.png", :alt => "buy button", :width => 300, :height => 50, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
+      </div>
+    <br>
 
 
     <!-- /.banner -->

@@ -8,6 +8,12 @@ Bundler.require(*Rails.groups)
 
 module Blog
   class Application < Rails::Application
+
+    Dynopoker.configure do |config|
+        config.address = 'http://www.patagoniaonabudget.com'
+    #  config.enable = false # default is true
+    #  config.poke_frequency = 123 # default is 1800s (30min)
+    end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

@@ -1,87 +1,39 @@
 <%= render 'layouts/header' %>
 
+<div class="jumbotron2">
+  <br>
+
+  <h2>Ready to get started?</h2>
+    <br>
+      <div class="buybutton">
+                <%= link_to image_tag("/assets/buy2.png", :alt => "buy button", :width => 300, :height => 50, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
+      </div>
+  <h2>Need a peek inside? Keep scrolling...</h2>
+</div>
+
 <div class="content-section-a">
 
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-5 col-sm-6">
-              <hr class="section-heading-spacer">
-
-              <div class="clearfix"></div>
-              <% if flash.present? %>
-                <div class="jumbotron4">
-                  <% flash.each do |name, msg| -%>
-                    <h4><%= content_tag :div, msg, class: name %></h4>
-                  <% end %>
-                </div>
-              <% end %>
-
-             <h3>Patagonia On A Budget is now available to purchase exlusively on Amazon!</h3>
-             <br>
-
-             <div class="buybutton">
-              <%= link_to image_tag("/assets/buy2.png", :alt => "Buy Patagonia On A Budget on Amazon", :width=> 300, :height=> 50, :align => "middle"), " https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2>Detailed Itineraries</h2>
+                <p class="lead">Have two weeks for your trip? Two months? Either way, plan out your stops with detailed itineraries for each region, including high-quality emoji maps to quickly understand the best sights in each region.</p>
+                <br>
             </div>
+            <br>
 
-            <h3>Want to know more about what's inside? Keep scrolling...</h3>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="/assets/emojimap.png" alt="Lakes District Map">
+            </div>
+        </div>
 
-
-             <p class="lead">If you want budget travel tips and updates, subscribe below!</p>
-
-
-             	<%= form_for @subscriber do |f| %>
-	           		<%= f.text_field :name, placeholder: "Name", class: 'form-control' %>
-	           		<br>
-	           		<%= f.email_field :email, placeholder: "Email", class: 'form-control' %>
-	          		<br>
-                <h4>How did you hear about us?</h4>
-	          		<%= f.select(:source, ["Select An Option...", "Search Engine", "Social Media", "Word of Mouth", "Reddit", "Other"], {}, { class: 'form-control'})%>
-	         			<br>
-	         			<br>
-                <div class="centerbutton">
-	           		  <%= f.submit "Sign Up", class: 'btn btn-large btn-default' %>
-                </div>
-	            <% end %>
-           
-          </div>
-          <br>
-
-          <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-              <img class="img-responsive" src="/assets/cover-min.jpg" alt="ebook cover">
-          </div>
       </div>
+      <!-- /.container -->
 
   </div>
-  <!-- /.container -->
-
-<hr>
-
-  <div class="content-section-a">
-
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-5 col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2>Detailed Itineraries</h2>
-                  <p class="lead">Have two weeks for your trip? Two months? Either way, plan out your stops with detailed itineraries for each region, including high-quality emoji maps to quickly understand the best sights in each region.</p>
-                  <br>
-              </div>
-              <br>
-
-              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <img class="img-responsive" src="/assets/emojimap.png" alt="Lakes District Map">
-              </div>
-          </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-</div>
-<!-- /.content-section-a -->
+  <!-- /.content-section-a -->
 
 <div class="content-section-b">
 
@@ -132,16 +84,6 @@
 
 </div>
 <!-- /.content-section-a -->
-
-<div class="jumbotron2">
-
-<h2>Ready to get started?</h2>
-    <br>
-      <div class="buybutton">
-                <%= link_to image_tag("/assets/buy2.png", :alt => "buy button", :width => 300, :height => 50, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
-      </div>
-      <br>
-</div>
 
 <div class="jumbotron2">
   <h2>Table of Contents</h2>
@@ -245,13 +187,3 @@
 </div>
 
 <%= render 'layouts/footer' %>
-
-<!-- 
-
-<div class="jumbotron">
-	<h4>U </h4>
-	<%= link_to "Read The Blog", "/articles/index", class: "btn btn-default btn-lg"%>
-
-</div>
-
-<%= render 'layouts/footer' %> -->

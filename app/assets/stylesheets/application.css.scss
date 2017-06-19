@@ -165,7 +165,19 @@ ul.list {
     background-color:transparent !important;
 
     font-weight: 700;
+
 }
+
+.features ul { 
+	padding-left: 0px !important;
+}
+
+@media(max-width:990px) {
+	#book_cover_homepage { 
+		display: none;
+	}		
+}
+
 
 .jumbotron6 { 
 		margin: 10px;
@@ -233,7 +245,6 @@ ul.list {
 } 
 
 .purchase {
-	padding: 50px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f8f8f8;
 }

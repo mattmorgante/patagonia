@@ -48,6 +48,8 @@ GEM
       sass (>= 3.3.4)
     builder (3.2.2)
     byebug (9.0.6)
+    canonical-rails (0.2.0)
+      rails (>= 4.1, < 5.2)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -201,6 +203,7 @@ DEPENDENCIES
   awesome_print
   bootstrap-sass
   byebug
+  canonical-rails
   coffee-rails (~> 4.1.0)
   devise
   dynopoker

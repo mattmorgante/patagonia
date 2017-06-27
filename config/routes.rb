@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   resources :posts
   resources :pages
   resources :subscribers
+  get "purchase-book" => 'subscribers#index'
+  # for backwards compatability
   get "purchase" => 'subscribers#index'
   get "author" => 'pages#show'
   get "/articles/:article" => "articles#show"

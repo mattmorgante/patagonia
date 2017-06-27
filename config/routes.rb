@@ -9,10 +9,10 @@ Rails.application.routes.draw do
   get 'blog-posts-patagonia' => 'articles#index'
   resources :posts
   resources :pages
-  resources :subscribers
   get "purchase-book" => 'subscribers#index'
   # for backwards compatability
   get "purchase" => 'subscribers#index'
+  resources :subscribers
   get "author" => 'pages#show'
   get "/articles/:article" => "articles#show"
 

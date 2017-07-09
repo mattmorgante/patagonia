@@ -235,34 +235,33 @@
 
     </div>
     <!-- /.content-section-a -->
-  <a  name="contact"></a>
-    <div class="banner">
+    <div class="content-section-b">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Start Your Adventure:</h2>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2><%= link_to "Find A Cheap Flight", "/articles/websites", class: "section-heading"%></h2>
+                    <p class="lead">Finding a cheap and pain-free flight to Patagonia isn't impossible. With these seven websites you're sure to find one that works for you, whether your trip is for two weeks or two months.
+                    </p>
+                    <br>
+                    <div class="centerbutton">
+                      <%= link_to "Read More", "/articles/websites", class: "btn btn-default btn-lg"%>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li><%= link_to "Read the Blog", "/articles/index", class: "btn btn-default btn-lg"%>
-                        </li>
-                        <li><%= link_to "Buy the Book", "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1", class: "btn btn-default btn-lg"%>
-                        </li>
-                        
-                    </ul>
+                <br>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="/assets/adioso.png" alt="rafting">
                 </div>
             </div>
 
         </div>
         <!-- /.container -->
+
     </div>
-    <br>
-      <div class="buybutton">
-          <%= link_to image_tag("/assets/buy2.png", :alt => "buy patagonia on a budget on amazon", :width => 300, :height => 50, :align => "middle"), "https://www.amazon.com/Patagonia-Budget-Guide-Backpack-Argentina-ebook/dp/B01IM7ZQS8/ref=sr_1_1?ie=UTF8&qid=1468835306&sr=8-1"%> 
-      </div>
-    <br>
+    <!-- /.content-section-b -->
 
 
     <!-- /.banner -->

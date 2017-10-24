@@ -18,7 +18,6 @@ Rails.application.configure do
   Dynopoker.configure do |config|
     config.address = 'http://patagoniaonabudget.com'
     config.address = 'https://warm-tor-51266.herokuapp.com/'
-    config.address = 'https://d2wb183l8ikp47.cloudfront.net'
   end
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
@@ -62,7 +61,7 @@ Rails.application.configure do
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.action_controller.asset_host = 'd2wb183l8ikp47.cloudfront.net'
+  # config.action_controller.asset_host = 'd2wb183l8ikp47.cloudfront.net'
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.

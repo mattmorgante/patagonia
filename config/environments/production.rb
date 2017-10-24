@@ -18,6 +18,7 @@ Rails.application.configure do
   Dynopoker.configure do |config|
     config.address = 'http://patagoniaonabudget.com'
     config.address = 'https://warm-tor-51266.herokuapp.com/'
+    config.address = 'd2wb183l8ikp47.cloudfront.net'
   end
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application

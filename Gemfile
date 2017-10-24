@@ -12,6 +12,7 @@ gem 'dynopoker'
 gem 'canonical-rails'
 gem 'rack-cors', :require => 'rack/cors'
 
+
 gem 'googlecharts'
 gem 'sass-rails', '~> 5.0'
 gem 'rails_real_favicon'
@@ -23,7 +24,6 @@ gem 'metamagic'
 gem 'sitemap_generator'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

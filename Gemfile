@@ -12,7 +12,6 @@ gem 'dynopoker'
 gem 'canonical-rails'
 gem 'rack-cors', :require => 'rack/cors'
 
-
 gem 'googlecharts'
 gem 'sass-rails', '~> 5.0'
 gem 'rails_real_favicon'
